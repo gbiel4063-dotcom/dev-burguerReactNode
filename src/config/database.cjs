@@ -1,7 +1,7 @@
 module.exports = {
 	dialect: "postgres",
 	host: "localhost",
-	batabase: "dev-burguer_db",
+	database: "dev-burguer_db",
 	username: "admin",
 	password: "123456",
 	define: {
