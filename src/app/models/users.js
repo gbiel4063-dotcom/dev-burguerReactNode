@@ -2,7 +2,7 @@ import { DataTypes, Model } from "sequelize";
 
 class user extends Model {
 	static init(sequelize) {
-		super.init(
+		Model.init(
 			{
 				name: DataTypes.STRING,
 				email: DataTypes.STRING,
